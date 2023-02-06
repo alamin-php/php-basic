@@ -114,7 +114,7 @@ else{
     echo "This is not leap year";
 }
 */
-
+/*
 $marks = 110;
 if($marks<33){
     echo 'Fail!';
@@ -135,3 +135,9 @@ if($marks<33){
 }else{
     "No Result found!";
 }
+*/
+// enter tuition fee of amount 
+$tuitionFee = 20000;
+$commission = ($tuitionFee>=20000)?($tuitionFee * 0.25):(($tuitionFee>=10000)?($tuitionFee * 0.20):(($tuitionFee>=7000)?($tuitionFee * 0.15):("Invalid data")));
+
+echo "The tuition fee commission is {$commission}";
